@@ -1,0 +1,19 @@
+main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+main > div > div {
+    flex-direction: row;
+    display: flex;
+}
+
+main > div > div:first-child {
+    color: red;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+main > div > div > div {
+    margin: 10px;
+}

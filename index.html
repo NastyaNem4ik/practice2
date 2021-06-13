@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<main>
+    <div>
+        <div>Paralelogram</div>
+
+        <div>
+            <div>
+                <span>A:</span>
+
+                <input value="0" data-formula_id="1" type="number" name="formula1_a" step="1" min="0">
+            </div>
+
+            <div>
+                <span>B:</span>
+
+                <input value="0" data-formula_id="1" type="number" name="formula1_b" step="1" min="0">
+            </div>
+
+            <div>
+                <span>angle:</span>
+
+                <input value="0" data-formula_id="1" type="number" name="formula1_angle" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Area: <span id="result1-area"></span></span>
+            </div>
+
+            <div>
+                <span>h: <span id="result1-h"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div>Circle</div>
+
+        <div>
+            <div>
+                <span>R:</span>
+
+                <input value="0" data-formula_id="2" type="number" name="formula2_r" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Area: <span id="result2-area"></span></span>
+            </div>
+
+            <div>
+                <span>L: <span id="result2-l"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div>Ellipse</div>
+
+        <div>
+            <div>
+                <span>Horizontal R:</span>
+
+                <input value="0" data-formula_id="3" type="number" name="formula3_horizontalR" step="1" min="0">
+            </div>
+
+            <div>
+                <span>Vertical R:</span>
+
+                <input value="0" data-formula_id="3" type="number" name="formula3_verticalR" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Area: <span id="result3-area"></span></span>
+            </div>
+
+            <div>
+                <span>L: <span id="result3-l"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div>Square</div>
+
+        <div>
+            <div>
+                <span>A:</span>
+
+                <input value="0" data-formula_id="4" type="number" name="formula4_a" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Diagonal: <span id="result4-diagonal"></span></span>
+            </div>
+
+            <div>
+                <span>Area: <span id="result4-area"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div>Rectangle</div>
+
+        <div>
+            <div>
+                <span>A:</span>
+
+                <input value="0" data-formula_id="5" type="number" name="formula5_a" step="1" min="0">
+            </div>
+
+            <div>
+                <span>B:</span>
+
+                <input value="0" data-formula_id="5" type="number" name="formula5_b" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Diagonal: <span id="result5-diagonal"></span></span>
+            </div>
+
+            <div>
+                <span>Area: <span id="result5-area"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <div>Triangle</div>
+
+        <div>
+            <div>
+                <span>A:</span>
+
+                <input value="0" data-formula_id="6" type="number" name="formula6_a" step="1" min="0">
+            </div>
+
+            <div>
+                <span>B:</span>
+
+                <input value="0" data-formula_id="6" type="number" name="formula6_b" step="1" min="0">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>A°: <span id="result6-a"></span></span>
+            </div>
+
+            <div>
+                <span>B°: <span id="result6-b"></span></span>
+            </div>
+
+            <div>
+                <span>C°: <span>90</span></span>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <span>Area: <span id="result6-area"></span></span>
+            </div>
+
+            <div>
+                <span>h: <span id="result6-h"></span></span>
+            </div>
+
+            <div>
+                <span>c: <span id="result6-c"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <label for="auto_calc"><input type="checkbox" id="auto_calc"> Immediately</label>
+    </div>
+
+
+    <button>Calculate</button>
+</main>
+
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
